@@ -10,9 +10,10 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-server = app.listen(3000, () => {
-    console.log('Server Listening...')
-})
+const PORT = process.env.PORT || 8080;
+server = app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}...`);
+});
 
 const io = require('socket.io')(server)
 

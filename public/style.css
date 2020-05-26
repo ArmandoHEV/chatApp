@@ -29,17 +29,17 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #8258FA;
+    border: 5px outset #801515;
 }
 
 div#change_username {
     height: 3%;
     display: inline-block;
-    background-color: #BCA9F5;
+    background-color: #B31F30;
 }
 
 section#chatroom {
-    border: 5px inset #8258FA;
+    border: 5px inset #fa5858;
     height: 85%;
     overflow: auto;
 }
@@ -47,7 +47,7 @@ section#chatroom {
 section#input_zone {
     height: 7%;
     text-align: center;
-    background-color: #BCA9F5;
+    background-color: #f5a9a9;
 }
 
 .vertical-align {
